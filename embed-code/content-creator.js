@@ -57,7 +57,7 @@ await lib.discord.channels['@0.3.2'].messages.create({
         {
           "style": 2,
           "label": `🔍・Andere Kategorie wählen`,
-          "custom_id": `row_2_categories`,
+          "custom_id": `row_2_category`,
           "disabled": false,
           "type": 2
         }
