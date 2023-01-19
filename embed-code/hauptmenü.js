@@ -11,7 +11,7 @@ await lib.discord.channels['@0.3.2'].messages.create({
         {
           "style": 2,
           "label": `🔍・Suchen`,
-          "custom_id": `row_0_button_0`,
+          "custom_id": `row_0_search`,
           "disabled": false,
           "type": 2
         }
