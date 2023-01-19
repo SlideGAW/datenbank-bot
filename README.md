@@ -4,14 +4,15 @@
 
 **Wie sollte der Bot aufgebaut sein und was sollte er können?**
 
-Der Bot trägt den Namen ```Datenbank``` und kann mit dem Befehl ```/setup``` kann eine Nachricht, nämlich das sogenannte ```Hauptmenü``` in den Kanal gesendet werden.
+Der Bot trägt den Namen ```Datenbank```. Mit dem sogenannten ```Admin Panel``` und mit dem Befehl ```/setup``` kann ein sogenanntes ```Hauptmenü``` in den Kanal, in dem man den Befehl ausführt, gesendet werden.
 
 ![Hauptmenue](https://user-images.githubusercontent.com/122997603/213225467-5175aaaf-89a8-4f8e-9e9d-04a582edb1f0.png)
 
-Mit dem Befehl ```/suchen``` kann die Suche ebenfalls gestartet werden.
+Durch betätigen des Buttons ```Suchen``` kann die Suche gestartet werden.
+Ebenfalls kann die Suche mit dem Befehl ```/suchen``` gestartet werden.
 
 
-Nach dem Betätigen des Buttons ```Suchen```, wird das Hauptmenü aus dem Chat gelöscht und das Menü ```Kategorie``` gesendet.
+Nach dem Betätigen des Buttons ```Suchen```, oder durch den Befehl, wird das Hauptmenü und Befehl aus dem Chat gelöscht und das Menü ```Kategorie``` gesendet.
 
 ![Kategorien1](https://user-images.githubusercontent.com/122997603/213277434-446bdc5f-b5ea-4226-8537-72eb19adf6e0.png)
 ![Kategorien](https://user-images.githubusercontent.com/122997603/213273934-61157ac8-5821-48d7-ab91-e45e0cf85e88.png)
@@ -30,8 +31,12 @@ Nach erfolgreicher Auswahl wird das Menü ```Content Creator``` aus dem Chat gel
 
 ![ausgabe](https://user-images.githubusercontent.com/122997603/213277713-fba88c2f-3abf-4c7a-a9b7-229a65e1dd07.png)
 
+```{creator}``` wird hierbei durch den zuvor ausgewählten Namen des Content Creators ersetzt, ```{kategorie}``` durch die zuvor ausgewählte Kategorie und ```{link}``` durch den gespeicherten Link des Content Creators.
+
 Bei Betätigung von dem Button ```Hauptmenü``` wird die derzeit angezeigte Nachricht gelöscht und die Hauptmenü Nachricht wird gesendet.
 Dies trifft ebenfalls auf die Buttons ```Anderen Creator wählen``` und ```Andere Kategorie wählen``` zu.
+
+Nach einer Zeit von 3 Sekunden bekommt der Benutzer in den gleichen Chat
 
 Die Nachrichten im Chat sind immer nur für den Benutzer sichtbar der mit dem Bot interagiert. Alle anderen Benutzer die mit dem Bot keine Interaktion hatten sehen immer nur die Hauptmenü Nachricht.
 
