@@ -10,42 +10,50 @@ await lib.discord.channels['@0.3.2'].messages.create({
       "components": [
         {
           "custom_id": `row_0_select_0`,
-          "placeholder": `Kategorien`,
+          "placeholder": `Kategorien ・Deutsch・🇩🇪`,
           "options": [
             {
               "label": `YouTube`,
               "value": `youtube-german`,
-              "description": `🇩🇪・Deutsch`,
-              "default": false
-            },
-            {
-              "label": `YouTube`,
-              "value": `youtube-international`,
-              "description": `🌐・International`,
               "default": false
             },
             {
               "label": `Twitch`,
               "value": `twitch-german`,
-              "description": `🇩🇪・Deutsch`,
-              "default": false
-            },
-            {
-              "label": `Twitch`,
-              "value": `twitch-international`,
-              "description": `🌐・International`,
               "default": false
             },
             {
               "label": `Twitter`,
               "value": `twitter-german`,
-              "description": `🇩🇪・Deutsch`,
+              "default": false
+            }
+          ],
+          "min_values": 1,
+          "max_values": 1,
+          "type": 3
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "components": [
+        {
+          "custom_id": `row_2_select_0`,
+          "placeholder": `Kategorien ・International・🌐`,
+          "options": [
+            {
+              "label": `YouTube`,
+              "value": `youtube-international`,
+              "default": false
+            },
+            {
+              "label": `Twitch`,
+              "value": `twitch-international`,
               "default": false
             },
             {
               "label": `Twitter`,
               "value": `twitter-international`,
-              "description": `🌐・International`,
               "default": false
             }
           ],
@@ -61,7 +69,7 @@ await lib.discord.channels['@0.3.2'].messages.create({
         {
           "style": 2,
           "label": `🏠・Hauptmenü`,
-          "custom_id": `row_3_menu`,
+          "custom_id": `row_3_home`,
           "disabled": false,
           "type": 2
         }
