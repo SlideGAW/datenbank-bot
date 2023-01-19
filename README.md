@@ -37,6 +37,14 @@ Die Nachrichten im Chat sind immer nur für den Benutzer sichtbar der mit dem Bo
 
 Um Einstellungen vornehmen zu können gibt es das sogenannte ```Admin Panel``` und eigene Befehle.
 
+Admin Panel:
 Wenn der Button ```Kategorie hinzufügen``` betätigt wird erscheint ein Fenster, worin nach der Eingabe eines Namens für die Kategorie (Titel wie z.B. YouTube) und einer Beschreibung (z.B. Deutsch, International) gefragt wird.
+Nach "absenden" des Fensters wird die Kategorie der Liste hinzugefügt.
+
+Nach der Betätigung des Button ```Creator hinzufügen```, erscheint ein Fenster, worin nach dem Namen des Content Creator (z.B. Kurzgesagt), nach der Kategorie (z.B. YouTube) und nach dem Link (z.B. https://www.youtube.com/user/kurzgesagt) gefragt wird.
+Nach "absenden" des Fensters wird der Content Creator der Liste hinzugefügt.
+
+
+
 Mit dem Befehl ```/add-category {category}``` kann eine neue Kategorie hinzugefügt werden, mit ```/add-creator {category} {creator} {link}``` einen neuen Content Creator und mit ```/refresh-link {creator}``` kann ein vorhandener Link eines Content Creator mit einem neuen ersetzt werden.
 Ebenfalls ist es mit den Befehlen ```/delete-category {category} oder all``` und mit ```/delete-creator {creator}``` möglich die vorhandenen Kategorien und Content Creator zu löschen.
