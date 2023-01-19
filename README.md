@@ -54,4 +54,4 @@ Mit dem Befehl `/add-category {category}` kann eine neue Kategorie hinzugefügt 
 Ebenfalls ist es mit den Befehlen `/delete-category {category} oder all` und mit `/delete-creator {creator}` möglich die vorhandenen Kategorien und Content Creator zu löschen.
 
 **Zusatzinformation:**
-Farbe des Streifens der Embed Nachricht: `0xff8400`
+Farbe des Streifens der Embed Nachricht: `#0xff8400`
