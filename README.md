@@ -50,6 +50,8 @@ Nach der Betätigung des Button `Creator hinzufügen`, erscheint ein Fenster, wo
 Nach "absenden" des Fensters wird der Content Creator der Liste hinzugefügt.
 
 
-
 Mit dem Befehl `/add-category {category}` kann eine neue Kategorie hinzugefügt werden, mit `/add-creator {category} {creator} {link}` einen neuen Content Creator und mit `/refresh-link {creator}` kann ein vorhandener Link eines Content Creator mit einem neuen ersetzt werden.
 Ebenfalls ist es mit den Befehlen `/delete-category {category} oder all` und mit `/delete-creator {creator}` möglich die vorhandenen Kategorien und Content Creator zu löschen.
+
+**Zusatzinformation:**
+Farbe des Streifens der Embed Nachricht: `0xff8400`
