@@ -55,3 +55,11 @@ Ebenfalls ist es mit den Befehlen `/delete-category {category} oder all` und mit
 
 **Zusatzinformation:**
 Farbe des Streifens der Embed Nachricht: `#0xff8400`
+
+**Checkliste**
+- [ ] Hauptmenü
+- [ ] Kategorien
+- [ ] Content Creator
+- [ ] Link Ausgabe
+- [ ] Befehle
+- [ ] Admin Panel
