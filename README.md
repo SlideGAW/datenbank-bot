@@ -1,5 +1,5 @@
 # Datenbank Discord Bot
->Ein Bot, der wie eine Datenbank aufgebaut ist, in der die Links von verschiedenen Social Media Stars ausgegeben wird.
+>Ein Discord Bot, der wie eine Datenbank aufgebaut ist, in der die Links von verschiedenen Social Media Stars ausgegeben wird.
 
 
 **Wie sollte der Bot aufgebaut sein und was sollte er können?**
@@ -34,3 +34,9 @@ Bei Betätigung von dem Button ```Hauptmenü``` wird die derzeit angezeigte Nach
 Dies trifft ebenfalls auf die Buttons ```Anderen Creator wählen``` und ```Andere Kategorie wählen``` zu.
 
 Die Nachrichten im Chat sind immer nur für den Benutzer sichtbar der mit dem Bot interagiert. Alle anderen Benutzer die mit dem Bot keine Interaktion hatten sehen immer nur die Hauptmenü Nachricht.
+
+Um Einstellungen vornehmen zu können gibt es das sogenannte ```Admin Panel``` und eigene Befehle.
+
+Wenn der Button ```Kategorie hinzufügen``` betätigt wird erscheint ein Fenster, worin nach der Eingabe eines Namens für die Kategorie (Titel wie z.B. YouTube) und einer Beschreibung (z.B. Deutsch, International) gefragt wird.
+Mit dem Befehl ```/add-category {category}``` kann eine neue Kategorie hinzugefügt werden, mit ```/add-creator {category} {creator} {link}``` einen neuen Content Creator und mit ```/refresh-link {creator}``` kann ein vorhandener Link eines Content Creator mit einem neuen ersetzt werden.
+Ebenfalls ist es mit den Befehlen ```/delete-category {category} oder all``` und mit ```/delete-creator {creator}``` möglich die vorhandenen Kategorien und Content Creator zu löschen.
