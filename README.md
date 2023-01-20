@@ -21,7 +21,7 @@ Wenn der Benutzer einen nicht vorhandenen Content Creator eingibt, wird geprüft
 ![AI](https://user-images.githubusercontent.com/122997603/213725812-93da1281-4908-4c7d-bdca-8fae3d473120.png)
 
 Bei Betätigung des Buttons `Ja` wird die Meldung automatisch gelöscht und das `Ausgabe Menü`, mit den ähnlichen Content Creator wird dargestellt (gesendet). 
-Bei Betätigung des Buttons `Nein` wird die Meldung `Content Creator konnte nicht gefunden werden` (Siehe untere Abbildung).
+Bei Betätigung des Buttons `Nein` wird die Meldung `Content Creator konnte nicht gefunden werden` gesendet (Siehe untere Abbildung).
 
 Wenn der eingegebene Content Creator keinerlei Ähnlichkeiten mit den Einträgen der Datenbank hat, wird ebenfalls eine Nachricht dargestellt. 
 
@@ -42,9 +42,12 @@ Nach dem Betätigen des Buttons `Suchen`, oder durch den Befehl `/suchen`, wird 
 
 Nach erfolgreicher Auswahl wird das Menü `Kategorie` aus dem Chat gelöscht und das Menü `Content Creator` gesendet.
 
-![content-creator](https://user-images.githubusercontent.com/122997603/213274118-9ab44a72-5d3d-4fab-bc1c-a939f004770e.png)
+![content-creator](https://user-images.githubusercontent.com/122997603/213732415-2e5188c8-a460-43dc-a331-12346093e1ea.png)
 
 ![content-creator1](https://user-images.githubusercontent.com/122997603/213278769-6bbf8a84-a7f3-48ce-875e-aa45dae63879.png)
+
+Mit dem Button `Manuelle Suche` erscheint ein PopUp Fenster, worin gefragt wird, welcher Content Creator gesucht wird.
+Nach "absenden" der Eingabe wird überprüft ob der Benutzer einen nicht vorhandenen Content Creator eingibt, oder ob der eingegebene Content Creator Ähnlichkeiten der schreibweise mit einem aus der Datenbank hat. Wenn dies der Fall ist, wird eine Nachricht dargestellt. (Siehe Abbildung wie bei dem Befehl `/datenbank`, Funktion gleich wie bei dem Befehl)
 
 Nach erfolgreicher Auswahl wird das Menü `Content Creator` aus dem Chat gelöscht und das Menü `Datenbank` gesendet.
 
@@ -62,6 +65,9 @@ Die Nachrichten im Chat sind immer nur für den Benutzer sichtbar der mit dem Bo
 Um Einstellungen vornehmen zu können gibt es das sogenannte `Admin Panel` und eigene Befehle.
 
 **Admin Panel:**
+
+Mit dem Befehl `/admin-panel` kann das Admin Panel erzeugt werden. 
+
 Wenn der Button `Kategorie hinzufügen` betätigt wird erscheint ein PopUp Fenster, worin nach der Eingabe eines Namens für die Kategorie (Titel wie z.B. YouTube) und einer Beschreibung (z.B. Deutsch, International) gefragt wird.
 Nach "absenden" des Fensters wird die Kategorie der Liste hinzugefügt.
 
@@ -91,5 +97,5 @@ Farbe des Streifens der Embed Nachricht: `#xff8400`
 - [ ] Kategorien
 - [ ] Content Creator
 - [ ] Link Ausgabe
-- [ ] Befehle
-- [ ] Admin Panel
+- [ ] Befehle (service befehle nicht unbedingt notwendig)
+- [ ] Admin Panel (Nicht unbedingt notwendig)
