@@ -11,8 +11,10 @@ Der Bot trägt den Namen `Datenbank`. Mit dem sogenannten `Admin Panel` und mit 
 Durch betätigen des Buttons `Suchen` kann die Suche gestartet werden.
 Ebenfalls kann die Suche mit dem Befehl `/suchen` gestartet werden.
 
+Um direkt eine Suche zu starten kann der Befehl `/datenbank {kategorie} {creator}` verwendet werden.
+Mit der direkten
 
-Nach dem Betätigen des Buttons `Suchen`, oder durch den Befehl, wird das Hauptmenü und Befehl aus dem Chat gelöscht und das Menü `Kategorie` gesendet.
+Nach dem Betätigen des Buttons `Suchen`, oder durch den Befehl `/suchen`, wird das Hauptmenü und Befehl aus dem Chat gelöscht und das Menü `Kategorie` gesendet.
 
 ![Kategorien1](https://user-images.githubusercontent.com/122997603/213277434-446bdc5f-b5ea-4226-8537-72eb19adf6e0.png)
 ![Kategorien](https://user-images.githubusercontent.com/122997603/213273934-61157ac8-5821-48d7-ab91-e45e0cf85e88.png)
