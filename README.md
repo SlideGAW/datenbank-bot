@@ -13,7 +13,10 @@ Ebenfalls kann die Suche mit dem Befehl `/suchen` gestartet werden.
 
 Um direkt eine Suche zu starten kann der Befehl `/datenbank {kategorie} {creator}` verwendet werden.
 Wenn der Benutzer eine nicht vorhandene Kategorie eingibt, wird ihm dies über eine Nachricht dargestellt.
-Wenn der Benutzer einen nicht vorhandenen Content Creator eingibt, wird ihn in einer Nachchricht folgendes dargestellt: "Dieser Content Creator befindet sich nicht in der Datenbank! Möchtest du einen Vorschlag tätigen damit dieser hinzugefügt wird?"
+Wenn der Benutzer einen nicht vorhandenen Content Creator eingibt, wird ihm eine Nachricht gesendet (Siehe Abbildung)
+
+![Content Creator nicht gefunden](https://user-images.githubusercontent.com/122997603/213695191-4c56f46a-0aba-4a4b-ba27-f8690c8a846e.png)
+
 Daraufhin bekommt der Server Besitzer eine DM mit dem Namen des Benutzers, der vorgeschlagenen Kategorie, dem vorgeschlagenen Content Creator und der Zeit an dem der Vorschlag getätigt wurde.
 
 Nach dem Betätigen des Buttons `Suchen`, oder durch den Befehl `/suchen`, wird das Hauptmenü und Befehl aus dem Chat gelöscht und das Menü `Kategorie` gesendet.
