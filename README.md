@@ -4,7 +4,7 @@
 
 **Wie sollte der Bot aufgebaut sein und was sollte er können?**
 
-Der Bot trägt den Namen `Datenbank`. Mit dem sogenannten `Admin Panel` und mit dem Befehl `/setup` kann ein sogenanntes `Hauptmenü` in den Kanal, in dem man den Befehl ausführt, gesendet werden.
+Der Bot trägt den Namen `Datenbank`. Mit dem sogenannten `Admin Panel` oder mit dem Befehl `/setup` kann ein sogenanntes `Hauptmenü` in den Kanal, in dem man den Befehl ausführt, gesendet werden.
 
 ![Hauptmenue](https://user-images.githubusercontent.com/122997603/213225467-5175aaaf-89a8-4f8e-9e9d-04a582edb1f0.png)
 
@@ -61,16 +61,27 @@ Die Nachrichten im Chat sind immer nur für den Benutzer sichtbar der mit dem Bo
 
 Um Einstellungen vornehmen zu können gibt es das sogenannte `Admin Panel` und eigene Befehle.
 
-Admin Panel:
-Wenn der Button `Kategorie hinzufügen` betätigt wird erscheint ein Fenster, worin nach der Eingabe eines Namens für die Kategorie (Titel wie z.B. YouTube) und einer Beschreibung (z.B. Deutsch, International) gefragt wird.
+**Admin Panel:**
+Wenn der Button `Kategorie hinzufügen` betätigt wird erscheint ein PopUp Fenster, worin nach der Eingabe eines Namens für die Kategorie (Titel wie z.B. YouTube) und einer Beschreibung (z.B. Deutsch, International) gefragt wird.
 Nach "absenden" des Fensters wird die Kategorie der Liste hinzugefügt.
 
-Nach der Betätigung des Button `Creator hinzufügen`, erscheint ein Fenster, worin nach dem Namen des Content Creator (z.B. Kurzgesagt), nach der Kategorie (z.B. YouTube) und nach dem Link (z.B. https://www.youtube.com/user/kurzgesagt) gefragt wird.
+Nach der Betätigung des Button `Creator hinzufügen`, erscheint einPopUp Fenster, worin nach dem Namen des Content Creator (z.B. Kurzgesagt), nach der Kategorie (z.B. YouTube) und nach dem Link (z.B. https://www.youtube.com/user/kurzgesagt) gefragt wird.
 Nach "absenden" des Fensters wird der Content Creator der Liste hinzugefügt.
 
+Der Button `Link ersetzen` dient zum ersetzen des Links eines Content Creators. Dabei erscheint PopUp Fenster, worin nach dem neuen Link gefragt wird.
+
+Der Button `Service an` hat die gleiche Funktion wie der Befehl `/service-on`
+
+Der Button `Service aus` hat die gleiche Funktion wie der Befehl `/service-on`
+
+![Admin Panel](https://user-images.githubusercontent.com/122997603/213730549-35443a45-25df-43a7-b01b-61972d6607e7.png)
 
 Mit dem Befehl `/add-category {category}` kann eine neue Kategorie hinzugefügt werden, mit `/add-creator {category} {creator} {link}` einen neuen Content Creator und mit `/refresh-link {creator}` kann ein vorhandener Link eines Content Creator mit einem neuen ersetzt werden.
 Ebenfalls ist es mit den Befehlen `/delete-category {category} oder all` und mit `/delete-creator {creator}` möglich die vorhandenen Kategorien und Content Creator zu löschen.
+
+Der Befehl `/service-on` setzt den Bot in ein Wartungsarbeiten Modus. Das Hauptmenü wird durch eine Nachricht ersetzt und alle anderen Nachrichten werden gelöscht. Kein Befehl kann mehr ausgeführt werden.
+
+Der Befehl `/service-off` vergibt wieder Berechtigung für die Befehle und die Wartungsarbeiten Nachricht wird wieder durch das Hauptmenü ersetzt.
 
 **Zusatzinformation:**
 Farbe des Streifens der Embed Nachricht: `#xff8400`
