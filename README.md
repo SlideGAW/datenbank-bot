@@ -14,26 +14,26 @@ Ebenfalls kann die Suche mit dem Befehl `/suchen` gestartet werden.
 Um direkt eine Suche zu starten kann der Befehl `/datenbank {kategorie} {deutsch, international} {creator}` verwendet werden.
 Wenn der Benutzer eine nicht vorhandene Kategorie eingibt, wird ihm dies über eine Nachricht dargestellt. 
 
-![Kategorie nicht gefunden](https://user-images.githubusercontent.com/122997603/213697510-105022d0-90cf-4453-bc46-ffdb5c6e504b.png)
+![Kategorie nicht gefunden](https://user-images.githubusercontent.com/122997603/213725469-e88168e0-335b-4e30-86c3-64b840d0b7bb.png)
 
 Wenn der Benutzer einen nicht vorhandenen Content Creator eingibt, wird geprüft ob der eingegebene Content Creator Ähnlichkeiten der schreibweise mit einem aus der Datenbank hat. Wenn dies der Fall ist, wird eine Nachricht dargestellt. 
 
-![AI](https://user-images.githubusercontent.com/122997603/213717468-1a57a391-d128-4a15-980b-7893be48d2f5.png)
+![AI](https://user-images.githubusercontent.com/122997603/213725812-93da1281-4908-4c7d-bdca-8fae3d473120.png)
 
 Bei Betätigung des Buttons `Ja` wird die Meldung automatisch gelöscht und das `Ausgabe Menü`, mit den ähnlichen Content Creator wird dargestellt (gesendet). 
 Bei Betätigung des Buttons `Nein` wird die Meldung `Content Creator konnte nicht gefunden werden` (Siehe untere Abbildung).
 
 Wenn der eingegebene Content Creator keinerlei Ähnlichkeiten mit den Einträgen der Datenbank hat, wird ebenfalls eine Nachricht dargestellt. 
 
-![Content Creator nicht gefunden](https://user-images.githubusercontent.com/122997603/213695191-4c56f46a-0aba-4a4b-ba27-f8690c8a846e.png)
+![Content Creator nicht gefunden](https://user-images.githubusercontent.com/122997603/213726117-4d92c116-04c4-4405-b761-0b0f6b1bf270.png)
 
 Beim Betätigen des Buttons `Ja`, erscheint ein PopUp Fenser, mit drei Eingabe Fenstern. Im Ersten wird folgendes gefragt: "In welcher der Kategorien befindet sich der Content Creator? ({kategorien})" Im Zweiten: "Wie lautet der Name des Content Creators?" und im Dritten: "Wie lautet der Link zum Content Creator?".
 Daraufhin bekommt der Server Besitzer eine DM mit dem Namen des Benutzers, der vorgeschlagenen Kategorie, dem vorgeschlagenen Content Creator und der Zeit an dem der Vorschlag getätigt wurde.
 
 Mit klicken auf `Nein` wird die Nachricht gelöscht und es wird eine neue Nachricht gesendet. Diese Nachricht wird innerhalb von 5 Sekunden wieder gelöscht.
-Sie dient nur als Information
+Sie dient nur als Information.
 
-![kein vorschlag](https://user-images.githubusercontent.com/122997603/213714316-34d97941-019d-4dae-acee-0430490a6afe.png)
+![kein vorschlag](https://user-images.githubusercontent.com/122997603/213724788-9fe5e05a-17a3-4347-8f13-851baddfbd83.png)
 
 Nach dem Betätigen des Buttons `Suchen`, oder durch den Befehl `/suchen`, wird das Hauptmenü und Befehl aus dem Chat gelöscht und das Menü `Kategorie` gesendet.
 
@@ -73,7 +73,7 @@ Mit dem Befehl `/add-category {category}` kann eine neue Kategorie hinzugefügt 
 Ebenfalls ist es mit den Befehlen `/delete-category {category} oder all` und mit `/delete-creator {creator}` möglich die vorhandenen Kategorien und Content Creator zu löschen.
 
 **Zusatzinformation:**
-Farbe des Streifens der Embed Nachricht: `#0xff8400`
+Farbe des Streifens der Embed Nachricht: `#xff8400`
 
 **Checkliste**
 - [ ] Hauptmenü
