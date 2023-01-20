@@ -1,5 +1,5 @@
 # Datenbank Discord Bot
->Ein Discord Bot, der wie eine Datenbank aufgebaut ist, in der die Links von verschiedenen Social Media Stars ausgegeben wird.
+>Ein Discord Bot, der wie eine Datenbank aufgebaut ist, in der die Links von verschiedenen Content Creator ausgegeben wird.
 
 
 **Wie sollte der Bot aufgebaut sein und was sollte er können?**
