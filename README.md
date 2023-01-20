@@ -11,28 +11,40 @@ Der Bot trägt den Namen `Datenbank`. Mit dem sogenannten `Admin Panel` und mit 
 Durch betätigen des Buttons `Suchen` kann die Suche gestartet werden.
 Ebenfalls kann die Suche mit dem Befehl `/suchen` gestartet werden.
 
-Um direkt eine Suche zu starten kann der Befehl `/datenbank {kategorie} {creator}` verwendet werden.
-Wenn der Benutzer eine nicht vorhandene Kategorie eingibt, wird ihm dies über eine Nachricht dargestellt.
-Wenn der Benutzer einen nicht vorhandenen Content Creator eingibt, wird ihm eine Nachricht gesendet (Siehe Abbildung)
+Um direkt eine Suche zu starten kann der Befehl `/datenbank {kategorie} {deutsch, international} {creator}` verwendet werden.
+Wenn der Benutzer eine nicht vorhandene Kategorie eingibt, wird ihm dies über eine Nachricht dargestellt. 
+
+![Kategorie nicht gefunden](https://user-images.githubusercontent.com/122997603/213697510-105022d0-90cf-4453-bc46-ffdb5c6e504b.png)
+
+Wenn der Benutzer einen nicht vorhandenen Content Creator eingibt, wird geprüft ob der eingegebene Content Creator Ähnlichkeiten der schreibweise mit einem aus der Datenbank hat. Wenn dies der Fall ist, wird eine Nachricht dargestellt. 
+
+![AI](https://user-images.githubusercontent.com/122997603/213717468-1a57a391-d128-4a15-980b-7893be48d2f5.png)
+
+Bei Betätigung des Buttons `Ja` wird die Meldung automatisch gelöscht und das `Ausgabe Menü`, mit den ähnlichen Content Creator wird dargestellt (gesendet). 
+Bei Betätigung des Buttons `Nein` wird die Meldung `Content Creator konnte nicht gefunden werden` (Siehe untere Abbildung).
+
+Wenn der eingegebene Content Creator keinerlei Ähnlichkeiten mit den Einträgen der Datenbank hat, wird ebenfalls eine Nachricht dargestellt. 
 
 ![Content Creator nicht gefunden](https://user-images.githubusercontent.com/122997603/213695191-4c56f46a-0aba-4a4b-ba27-f8690c8a846e.png)
 
+Beim Betätigen des Buttons `Ja`, erscheint ein PopUp Fenser, mit drei Eingabe Fenstern. Im Ersten wird folgendes gefragt: "In welcher der Kategorien befindet sich der Content Creator? ({kategorien})" Im Zweiten: "Wie lautet der Name des Content Creators?" und im Dritten: "Wie lautet der Link zum Content Creator?".
 Daraufhin bekommt der Server Besitzer eine DM mit dem Namen des Benutzers, der vorgeschlagenen Kategorie, dem vorgeschlagenen Content Creator und der Zeit an dem der Vorschlag getätigt wurde.
+
+Mit klicken auf `Nein` wird die Nachricht gelöscht und es wird eine neue Nachricht gesendet. Diese Nachricht wird innerhalb von 5 Sekunden wieder gelöscht.
+Sie dient nur als Information
+
+![kein vorschlag](https://user-images.githubusercontent.com/122997603/213714316-34d97941-019d-4dae-acee-0430490a6afe.png)
 
 Nach dem Betätigen des Buttons `Suchen`, oder durch den Befehl `/suchen`, wird das Hauptmenü und Befehl aus dem Chat gelöscht und das Menü `Kategorie` gesendet.
 
-![Kategorien1](https://user-images.githubusercontent.com/122997603/213277434-446bdc5f-b5ea-4226-8537-72eb19adf6e0.png)
-![Kategorien](https://user-images.githubusercontent.com/122997603/213273934-61157ac8-5821-48d7-ab91-e45e0cf85e88.png)
-
-Ebenfalls kann mit dem Befehl `/kategorie {youtube, twitch, twitter} {deutsch, international}` eine Kategorie gesucht werden.
+![Kategorien1](https://user-images.githubusercontent.com/122997603/213714942-15edc92f-2388-4ce5-8ca8-9dc41c5281b4.png)
+![Kategorien](https://user-images.githubusercontent.com/122997603/213715010-0b360fba-b8b6-431a-8c6f-380993ca16be.png)
 
 Nach erfolgreicher Auswahl wird das Menü `Kategorie` aus dem Chat gelöscht und das Menü `Content Creator` gesendet.
 
 ![content-creator](https://user-images.githubusercontent.com/122997603/213274118-9ab44a72-5d3d-4fab-bc1c-a939f004770e.png)
 
 ![content-creator1](https://user-images.githubusercontent.com/122997603/213278769-6bbf8a84-a7f3-48ce-875e-aa45dae63879.png)
-
-Ebenfalls kann mit dem Befehl `/creator {paluten, gronkh, usw.}` ein Content Creator gesucht werden.
 
 Nach erfolgreicher Auswahl wird das Menü `Content Creator` aus dem Chat gelöscht und das Menü `Datenbank` gesendet.
 
