@@ -14,20 +14,6 @@ await lib.discord.channels['@0.3.2'].messages.create({
           "custom_id": `row_1_home`,
           "disabled": false,
           "type": 2
-        },
-        {
-          "style": 2,
-          "label": `🔍・Anderen Creator wählen`,
-          "custom_id": `row_1_creator`,
-          "disabled": false,
-          "type": 2
-        },
-        {
-          "style": 2,
-          "label": `🔍・Andere Kategorie wählen`,
-          "custom_id": `row_1_categories`,
-          "disabled": false,
-          "type": 2
         }
       ]
     }
