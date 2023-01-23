@@ -146,3 +146,6 @@ BastiGHG
 MrBeast
 TestUser
 ```
+
+Die Ausgaben erfolgen über eine Embed Nachricht.
+Die Commands sind nur für die Benutzer sichtbar die sie benutzen.
