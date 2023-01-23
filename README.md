@@ -102,6 +102,7 @@ Farbe des Streifens der Embed Nachricht: `#xff8400`
 
 **Funktionserweiterung**
 
+```
 /list - zeigt alle Kategorien mit deren Unterkategorien und deren Creatorn an
 Beispiel:
 
@@ -144,3 +145,4 @@ Beispiel:
 BastiGHG
 MrBeast
 TestUser
+```
