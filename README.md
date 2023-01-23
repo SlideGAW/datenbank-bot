@@ -99,3 +99,48 @@ Farbe des Streifens der Embed Nachricht: `#xff8400`
 - [ ] Link Ausgabe
 - [ ] Befehle (service befehle nicht unbedingt notwendig)
 - [ ] Admin Panel (Nicht unbedingt notwendig)
+
+**Funktionserweiterung**
+
+/list - zeigt alle Kategorien mit deren Unterkategorien und deren Creatorn an
+Beispiel:
+
+International
+  YouTube
+    MrBeast
+  Twitter
+    Elon Musk
+  Twitch
+    TestUser1
+
+Deutsch
+  YouTube
+    BastiGHG
+  Twitter
+    TestUser2
+
+
+/list {category} - Zeigt alle Creator , Unterkategorien und Kategorien in einer ausgewählten Kategorie an
+Beispiel:
+Kategorie Deutsch wurde ausgewählt.
+
+Deutsch
+  YouTube
+    BastiGHG
+  Twitter
+    TestUser2
+
+/list {category} {sub-category} - Zeigt alle Unterkategorien und Creator in einer ausgewählten Kategorie an
+Beispiel:
+Kategorie Deutsch und die Unterkategorie YouTzbe wurde ausgewählt.
+
+Deutsch
+  YouTube
+    BastiGHG
+
+/list-creator - Zeigt eine Liste aller Creator an (wenn möglich alphabetisch)
+Beispiel:
+
+BastiGHG
+MrBeast
+TestUser
