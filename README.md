@@ -145,6 +145,19 @@ Beispiel:
 BastiGHG
 MrBeast
 TestUser
+
+/list-link - Zeigt alle Links mit deren Creatorn an.
+
+MrBeast
+https://www.youtube.com/user/mrbeast6000
+TestUser
+https://www.twitter.com/user/testuser
+
+
+/list-link {creator} - Zeigt den Link / die Links eines ausgewählten Creators an.
+
+MrBeast
+https://www.youtube.com/user/mrbeast6000
 ```
 
 Die Ausgaben erfolgen über eine Embed Nachricht.
