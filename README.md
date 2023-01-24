@@ -172,3 +172,12 @@ Umsetzung so wie es halt möglich ist.
 Die Ausgaben erfolgen über eine Embed Nachricht.
 Die Commands sind nur für die Benutzer sichtbar die sie benutzen.
 Alle Befehle werden im Admin Panel angezeigt (Buttons).
+
+Falls du noch Lust und Zeit hättest wäre soetwas auch noch super:
+
+**Limitation der Benutzung**
+
+Ein Benutzer der eine bestimmte Rolle hat (Premium) kann am Tag nur 10 mal suchen. 
+Wenn eine Suche nicht erfolgreich war, also wenn keine Linkausgabe erfolgte, wird dies nicht dazugezählt. 
+Beim Rang Exklusiv z.B. 25 Suchanfragen pro Tag.
+Eine Möglichkeit diese Funktion zu aktivieren und deaktivieren.
