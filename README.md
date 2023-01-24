@@ -153,13 +153,22 @@ https://www.youtube.com/user/mrbeast6000
 TestUser
 https://www.twitter.com/user/testuser
 
+Hier erfolgen die gleichen Befehle nur zusätzlich mit Link Ausgabe:
 
 /list-link {creator} - Zeigt den Link / die Links eines ausgewählten Creators an.
 
 MrBeast
 https://www.youtube.com/user/mrbeast6000
+
+/list-link {category} - Zeigt die Unterkategorie, den Creator und die Links an.
+
+Deutsch
+  YouTube
+    BastiGHG
+    https://www.youtube.com/user/bastighg
 ```
 
+Umsetzung so wie es halt möglich ist.
 Die Ausgaben erfolgen über eine Embed Nachricht.
 Die Commands sind nur für die Benutzer sichtbar die sie benutzen.
-Alle Befehle werden im Admin Panel  hinzugefügt.
+Alle Befehle werden im Admin Panel angezeigt (Buttons).
